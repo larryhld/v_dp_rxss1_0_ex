@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.524354",
+   "Default View_TopLeft":"-156,-719",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port ext_iic_0 -pg 1 -lvl 4 -x 1280 -y 20 -defaultsOSRD
+preplace port user_si570_sysclk -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port aux_rx_data_in_0 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port aux_rx_data_out_0 -pg 1 -lvl 4 -x 1280 -y 140 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace portBus B_SOURCE_AUX_DE -pg 1 -lvl 4 -x 1280 -y 50 -defaultsOSRD
+preplace portBus B_SOURCE_RST -pg 1 -lvl 4 -x 1280 -y 80 -defaultsOSRD
+preplace portBus IBUF_DS_N -pg 1 -lvl 0 -x 0 -y 0 -defaultsOSRD
+preplace portBus IBUF_DS_N1 -pg 1 -lvl 0 -x 0 -y 30 -defaultsOSRD
+preplace portBus IBUF_DS_P -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace portBus IBUF_DS_P1 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace portBus aux_rx_data_en_out_n_0 -pg 1 -lvl 4 -x 1280 -y 110 -defaultsOSRD
+preplace portBus i2c_scl -pg 1 -lvl 4 -x 1280 -y 170 -defaultsOSRD
+preplace portBus i2c_sda -pg 1 -lvl 4 -x 1280 -y 200 -defaultsOSRD
+preplace portBus phy_rxn_in -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace portBus phy_rxp_in -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace portBus pwd -pg 1 -lvl 4 -x 1280 -y 230 -defaultsOSRD
+preplace portBus rx_hpd -pg 1 -lvl 4 -x 1280 -y 260 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 1 -x 160 -y 250 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 1 -x 160 -y 80 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 160 -y 390 -defaultsOSRD
+preplace inst dp_rx_hier_0 -pg 1 -lvl 2 -x 490 -y 210 -defaultsOSRD
+preplace inst i2c_mux -pg 1 -lvl 2 -x 490 -y 560 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 490 -y 760 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 1 -x 160 -y 740 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 3 -x 970 -y 40 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 3 -x 970 -y 200 -defaultsOSRD
+preplace inst system_ila_2 -pg 1 -lvl 3 -x 970 -y 340 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -x 970 -y 460 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 970 -y 580 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 970 -y 700 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -x 490 -y 900 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 3 -x 970 -y 840 -defaultsOSRD
+levelinfo -pg 1 0 160 490 970 1280
+pagesize -pg 1 -db -bbox -sgen -160 -60 1510 1030
+"
+}
+
